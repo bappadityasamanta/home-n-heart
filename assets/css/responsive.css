@@ -629,3 +629,690 @@ AMENITIES
 .amenity-box h5{
     margin-bottom:0;
 }
+/*==================================================
+GALLERY
+==================================================*/
+
+#gallery{
+    background:#f8f8f8;
+}
+
+.gallery-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    cursor:pointer;
+    transition:.5s ease;
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.gallery-img:hover{
+    transform:scale(1.04);
+    box-shadow:0 30px 60px rgba(0,0,0,.18);
+}
+
+/*==================================================
+ATTRACTIONS
+==================================================*/
+
+.attraction-card{
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    border-radius:22px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.attraction-card:hover{
+
+    transform:translateY(-10px);
+
+    background:var(--primary);
+
+}
+
+.attraction-card:hover h5,
+.attraction-card:hover p{
+
+    color:#fff;
+
+}
+
+.attraction-card i{
+
+    font-size:2.8rem;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+
+.attraction-card h5{
+
+    margin-bottom:15px;
+
+}
+
+.attraction-card p{
+
+    color:#666;
+
+    margin:0;
+
+}
+
+/*==================================================
+TESTIMONIALS
+==================================================*/
+
+.testimonial-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.15);
+
+}
+
+.stars{
+
+    color:#ffc107;
+
+    font-size:1.2rem;
+
+    margin-bottom:20px;
+
+    letter-spacing:2px;
+
+}
+
+.testimonial-card p{
+
+    font-style:italic;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.testimonial-card h6{
+
+    margin:0;
+
+    color:var(--primary);
+
+}
+
+/*==================================================
+FAQ
+==================================================*/
+
+.accordion-item{
+
+    border:none;
+
+    border-radius:18px!important;
+
+    overflow:hidden;
+
+    margin-bottom:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.accordion-button{
+
+    font-weight:600;
+
+    padding:22px;
+
+    background:#fff;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.accordion-button:focus{
+
+    box-shadow:none;
+
+}
+
+.accordion-body{
+
+    padding:22px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*==================================================
+CONTACT
+==================================================*/
+
+.contact-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.contact-card p{
+
+    margin-bottom:18px;
+
+    color:#666;
+
+}
+
+.contact-card i{
+
+    color:var(--secondary);
+
+    margin-right:10px;
+
+}
+
+.contact-form{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:14px 18px;
+
+    border:1px solid #ddd;
+
+}
+
+.form-control:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:none;
+
+}
+
+.map-container{
+
+    margin-top:50px;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+/*==================================================
+SOCIAL ICONS
+==================================================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.social-icons a{
+
+    width:45px;
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    transition:.35s;
+
+}
+
+.social-icons a:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-5px);
+
+}
+/*==================================================
+FOOTER
+==================================================*/
+
+.footer{
+
+    background:#1f2d23;
+
+    color:#d9d9d9;
+
+    padding:80px 0 30px;
+
+}
+
+.footer h3,
+.footer h5{
+
+    color:#fff;
+
+    margin-bottom:20px;
+
+}
+
+.footer h3 span{
+
+    color:var(--secondary);
+
+}
+
+.footer p{
+
+    color:#cfcfcf;
+
+    line-height:1.9;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-links a{
+
+    color:#d6d6d6;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--secondary);
+
+    padding-left:8px;
+
+}
+
+.footer hr{
+
+    border-color:rgba(255,255,255,.12);
+
+    margin:40px 0 25px;
+
+}
+
+
+/*==================================================
+WHATSAPP BUTTON
+==================================================*/
+
+.whatsapp-btn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:#25D366;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+    z-index:999;
+
+    transition:.35s;
+
+}
+
+.whatsapp-btn:hover{
+
+    transform:scale(1.12);
+
+    color:#fff;
+
+}
+
+
+/*==================================================
+BACK TO TOP
+==================================================*/
+
+.back-to-top{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:100px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--secondary);
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.35s;
+
+    z-index:998;
+
+}
+
+.back-to-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.back-to-top:hover{
+
+    background:var(--primary);
+
+}
+
+
+/*==================================================
+SMOOTH HOVER EFFECTS
+==================================================*/
+
+img{
+
+    transition:.45s ease;
+
+}
+
+.card,
+.room-card,
+.feature-box,
+.amenity-box,
+.attraction-card,
+.testimonial-card{
+
+    transition:all .35s ease;
+
+}
+
+
+/*==================================================
+CUSTOM SCROLLBAR
+==================================================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f2f2f2;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--secondary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary);
+
+}
+
+
+/*==================================================
+TEXT SELECTION
+==================================================*/
+
+::selection{
+
+    background:var(--secondary);
+
+    color:#fff;
+
+}
+
+
+/*==================================================
+UTILITY CLASSES
+==================================================*/
+
+.shadow-soft{
+
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+}
+
+.rounded-xl{
+
+    border-radius:24px;
+
+}
+
+.bg-primary-soft{
+
+    background:#f7f5ef;
+
+}
+
+.text-primary-custom{
+
+    color:var(--primary);
+
+}
+
+.text-secondary-custom{
+
+    color:var(--secondary);
+
+}
+
+
+/*==================================================
+ANIMATIONS
+==================================================*/
+
+.fade-up{
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.zoom-in{
+
+    animation:zoomIn .6s ease forwards;
+
+}
+
+@keyframes zoomIn{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.9);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/*==================================================
+LOADING EFFECT
+==================================================*/
+
+.hero-title,
+.hero-tagline,
+.hero-description{
+
+    animation:fadeUp 1s ease both;
+
+}
+
+.hero-title{
+
+    animation-delay:.2s;
+
+}
+
+.hero-tagline{
+
+    animation-delay:.4s;
+
+}
+
+.hero-description{
+
+    animation-delay:.6s;
+
+}
+
+
+/*==================================================
+END OF STYLE.CSS
+==================================================*/
