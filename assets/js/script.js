@@ -265,3 +265,38 @@ transition:.3s;
 color:var(--secondary);
 
 }
+
+const roomSwiper = new Swiper(".roomSwiper",{
+
+    slidesPerView:1,
+
+    spaceBetween:20,
+
+    loop:true,
+
+    autoplay:{
+
+        delay:3000,
+
+        disableOnInteraction:false
+
+    },
+
+    pagination:{
+        el:".swiper-pagination",
+        clickable:true
+    },
+
+    breakpoints:{
+
+        768:{
+            slidesPerView:2
+        },
+
+        1200:{
+            slidesPerView:3
+        }
+
+    }
+
+});
