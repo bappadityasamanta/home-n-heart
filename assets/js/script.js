@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     initRevealAnimation();
 
+    initRoomSlider();
+
 });
 
 
@@ -181,37 +183,43 @@ function initRevealAnimation(){
 
 }
 
-const roomSwiper = new Swiper(".roomSwiper",{
+/*==================================================
+ROOM SLIDER
+==================================================*/
 
-    slidesPerView:1,
+function initRoomSlider(){
 
-    spaceBetween:20,
+    if(document.querySelector(".roomSwiper")){
 
-    loop:true,
+        new Swiper(".roomSwiper",{
 
-    autoplay:{
+            slidesPerView:1,
 
-        delay:3000,
+            spaceBetween:20,
 
-        disableOnInteraction:false
+            loop:true,
 
-    },
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false
+            },
 
-    pagination:{
-        el:".swiper-pagination",
-        clickable:true
-    },
+            pagination:{
+                el:".swiper-pagination",
+                clickable:true
+            },
 
-    breakpoints:{
+            breakpoints:{
+                768:{
+                    slidesPerView:2
+                },
+                1200:{
+                    slidesPerView:3
+                }
+            }
 
-        768:{
-            slidesPerView:2
-        },
-
-        1200:{
-            slidesPerView:3
-        }
+        });
 
     }
 
-});
+}
